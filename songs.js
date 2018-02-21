@@ -12,3 +12,10 @@ const wheelsOnTheBus = () => {
     console.log('all through the town\n')
   }
 }
+
+const bottlesOfBeer = () => {
+  for (let bottlesOfBeer = 99; bottlesOfBeer > 0; bottlesOfBeer--) {
+	  takeOneDown();
+	  passItAround();
+  }
+}
